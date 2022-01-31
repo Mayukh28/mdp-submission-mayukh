@@ -98,12 +98,15 @@ function animate() {
   renderer.render(scene, camera);
 }
 
+
+
 window.onload = function hi() {
-  if (window.innerWidth < 690) {
+  console.log("loaded")
+  if (window.innerWidth < 693) {
     
     sizes.width = window.innerWidth
     if (window.innerWidth <= 693) {
-      sizes.width = window.innerWidth
+      sizes.width = window.innerWidth-10
     }
     // Update camera
     camera.aspect = sizes.width / sizes.height

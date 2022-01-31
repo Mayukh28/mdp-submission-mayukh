@@ -131,7 +131,7 @@ header{
     width: 100vw;
     position: fixed;
     top: 0;
-    z-index: 5;
+    z-index: 15;
     transition: background 0.3s ease-in-out;
 }
 /* navbar chage to scroll */
