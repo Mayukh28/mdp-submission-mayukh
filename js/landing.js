@@ -99,9 +99,9 @@ function animate() {
 }
 
 window.onload = function hi() {
-  if (window.innerWidth < 550) {
+  if (window.innerWidth < 690) {
     
-    sizes.height = window.innerHeight
+    sizes.width = window.innerWidth
     if (window.innerWidth <= 693) {
       sizes.width = window.innerWidth
     }
@@ -114,4 +114,5 @@ window.onload = function hi() {
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
   }
 }
+// commit again
 animate();
