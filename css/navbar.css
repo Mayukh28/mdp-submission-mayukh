@@ -129,18 +129,26 @@ nav{
         display: none;
     }
 }
+@media (max-width:800px){
+    .sub-link{
+        margin-top: 500px;
+    }
+}
 
 header{
     height: 60px;
     width: 100vw;
     position: fixed;
     top: 0;
-    z-index: 15;
+    z-index: 15000000000;
     background: #12181b;
     transition: background 0.3s ease-in-out;
 }
 /* navbar chage to scroll */
 .head-scrolled{
-    background: #fff;
-    color: #12181b;
+    background: #22262f;
+    color: #fff;
+}
+#dropdown{
+    color: #fff;
 }

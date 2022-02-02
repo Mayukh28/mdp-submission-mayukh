@@ -13,7 +13,7 @@ window.addEventListener("scroll", (e) => {
   if (window.scrollY >= 221) {
     header.classList.add('head-scrolled');
     header.classList.remove('head-not-scrolled');
-    burger.style.color = '#000000'
+
     // waves.style.display = "hidden"
     const waves = document.getElementById('vanta-rings');
     
@@ -22,8 +22,9 @@ window.addEventListener("scroll", (e) => {
     // waves.style.width = `${100}vw`;
     // console.log(waves);
     console.log(waves);
-
+    
   } else if (window.scrollY < 221) {
+
     header.classList.remove("head-scrolled");
     console.log(document.querySelector("#scrldwn"))
     header.classList.add("head-not-scrolled");

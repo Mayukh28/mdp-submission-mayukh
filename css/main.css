@@ -21,11 +21,23 @@
 .blur-edge{
     background: linear-gradient(180deg, transparent, #12181b);
     height: 100px;
-    width: 150vw;
+    width: 100vw;
     bottom: 0px;
     position: absolute;
     z-index: 500;
 }
+.blur-edge-top{
+    background: linear-gradient(180deg, #12181b, transparent);
+    height: 100px;
+    width: 100vw;
+    top: 0px;
+    position: absolute;
+}
 .animated-backgrounds{
-    background: #fff;
+    /* background: #fff; */
+    margin: 50px 0 0 0;
+    z-index: -1;
+}
+.projects{
+    position: absolute;
 }

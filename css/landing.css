@@ -67,6 +67,7 @@
 #lbtn{
   margin-top: 30px;
   width: 180px;
+  text-decoration: none;
 }
   [data-ca3_icon]::before {
       font-weight: normal;
